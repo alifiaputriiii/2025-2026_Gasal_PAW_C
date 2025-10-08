@@ -5,7 +5,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffd6e7; /* pink soft */
+            background-color: #ffd6e7; 
             text-align: center;
             padding: 40px;
         }

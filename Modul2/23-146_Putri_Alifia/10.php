@@ -5,13 +5,13 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #ffd6e7; /* pink soft polos */
+            background-color: #ffd6e7; 
             padding: 40px;
             text-align: center;
             color: #333;
         }
         .container {
-            background-color: #ffd6e7; /* tetap pink soft */
+            background-color: #ffd6e7;
             width: 400px;
             margin: 0 auto;
             padding: 25px;
@@ -38,7 +38,7 @@
             cursor: pointer;
         }
         input[type=submit]:hover {
-            background-color: #ffc3da; /* sedikit lebih gelap, tapi masih pink soft */
+            background-color: #ffc3da; 
         }
         .total {
             border-radius: 10px;
@@ -61,7 +61,7 @@
             "Jus Alpukat" => 10000
         );
 
-        echo "<h3>🍽️ Daftar Menu:</h3>";
+        echo "<h3>Daftar Menu:</h3>";
         echo "<ul>";
         foreach ($menu as $item => $harga) {
             echo "<li>$item - Rp " . number_format($harga, 0, ',', '.') . "</li>";
